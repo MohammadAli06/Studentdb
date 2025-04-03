@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 09, 2024 at 08:26 PM
+-- Generation Time: Apr 03, 2025 at 04:27 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.0.30
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,13 +40,6 @@ CREATE TABLE `student_intern` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `student_intern`
---
-
-INSERT INTO `student_intern` (`id`, `name`, `dob`, `contact`, `address`, `email`, `gender`, `file`, `password`) VALUES
-(1, 'Arif ali sayyed', '2024-08-09', 98278972, '123', 'sayyedarifali@gmail.com', 'm', '2-26839_bad-boys-wallpapers.jpg', 'ali123');
-
---
 -- Indexes for dumped tables
 --
 
@@ -64,7 +57,7 @@ ALTER TABLE `student_intern`
 -- AUTO_INCREMENT for table `student_intern`
 --
 ALTER TABLE `student_intern`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
